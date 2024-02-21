@@ -21,11 +21,7 @@
 .contact_header,.about_header{background: linear-gradient(45deg, #69BAE4, #94cdeb);height: 500px;}
 :is(.contact_info,.about_info) {margin-top: -160px;}
 :is(.contact_info,.about_info) .items{background-color: #114560; border-radius: 60px;}
-.subscription button{    background-color: #409423;margin-top: 31px;padding: 13px 0;}
+.contact_subscription button{    background-color: #409423;margin-top: 31px;padding: 13px 0;}
 
 .about_info .items{width: 70%;}
 .about_info p{line-height: 1.8;}
-
-.footer{background-color: var(--main-color);overflow: hidden;}
-.footer li a{font-weight: 500;font-size: 16px;}
-.footer .logo{position: absolute;bottom: -16px;right: 100px;width: 150px;height: 160px;}

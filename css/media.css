@@ -2,8 +2,12 @@
     .trips_section .trip .content{margin-top: 0 !important;}
     .trips_section .trip h5{font-size: 16px;}
 }
-
+@media (max-width: 1550px) and (min-width: 992px) {
+    .home_subscription .vector {margin-left: 47px;}
+}
 @media (max-width: 1199px) and (min-width: 992px) {
+    .home_subscription .vector {margin-left: 0;}
+
     .trips_section .trip .trip_title { font-size: 22px; }
     .trips_section .trip h5 { margin: 7px 0 14px 0 !important; }
     .trips_section .trip .date { font-size: 14px !important; }   
@@ -11,11 +15,22 @@
     .contact_info .item .data{width: 50% !important;}
 }
 @media (max-width:992px) {
+    .home_subscription .vector {margin-left: 0;}
+    .home_subscription .content{padding: 0 !important;}
+    .home_subscription .subscrip {margin: 0 !important; padding: 20px 30px !important;}
+    .ask-us .happy_img{margin: 0 16px 0 -50px!important;}
+    .social img:not(.sm_arrow){height: 50px;}
+    .social span {top: 25%;}
     .contact_info .item .data{width: 50% !important;font-size: 15px;}
     .footer .logo {bottom: 40px;right: 40px;}
 }
 
 @media (max-width: 768px){
+    .home-header .left{padding: 0 12px;}
+    .home-header .left h1 {font-size: 50px;}
+    .ask-us .images{display: flex;}
+    .home_subscription {padding: 0 10px;}
+
     .trips_section .trip .content{margin-top: 0 !important;}
     .trips_section .trip .trip_title { font-size: 22px; }
     .trips_section .trip h5 { margin-bottom: 28px !important; }
@@ -34,7 +49,7 @@
     .contact_info .item span{display: none;}
     .contact_info .item .data{margin-left: 20px;}
     
-    .subscription {padding: 0 40px;}
+    .contact_subscription {padding: 0 40px;}
 
     .about_info {margin-top: -204px;}
     .about_info .items {width: 85%;}
