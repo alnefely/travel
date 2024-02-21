@@ -56,78 +56,27 @@ body {font-family: 'Quicksand', sans-serif !important;background-color: #fafafa;
 }
 .popular-travels {position: relative;}
 
-.popular-travels .title {
-    background-color: #FFF;
-    text-align: center;
-    padding: 20px;
-    font-size: 24px;
-    margin-top: 40px;
-}
+.popular-travels .title {background-color: #FFF;text-align: center;padding: 20px;font-size: 24px;margin-top: 40px;}
 .hello path {fill: #FFCB00;}
-.popular-travels .item {
-    /* background-color: #FFF; */
-    min-height: 277px;
-    position: relative;
-}
-.popular-travels .item svg {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.popular-travels .item img {
-    width: 120px;
-    height: 137px;
-    border-radius: 20px;
-}
+/* .popular-travels .item {min-height: 277px;position: relative;} */
+/* .popular-travels .item svg {position: absolute;top: 0;right: 0;} */
+/* .popular-travels .item img {width: 120px;height: 137px;border-radius: 20px;} */
 
-.popular-travels .item .content {
-    position: absolute;
-    z-index: 999;
-    left: 140px;
-    top: 4px;
-}
-.popular-travels .item a {
-    position: absolute !important;
-    bottom: 0;
-    background: #115171;
-    border-color: #115171;
-    width: 100%;
-}
-.popular-travels .owl-theme .custom-nav {
-    position: absolute;
-    top: 20%;
-    left: 0;
-    right: 0;
-}
+/* .popular-travels .item .content {position: absolute;z-index: 999;left: 140px;top: 4px;} */
+/* .popular-travels .item a {position: absolute !important;bottom: 0;background: #115171;border-color: #115171;width: 100%;} */
+.popular-travels .owl-theme .custom-nav {position: absolute;top: 20%;left: 0;right: 0;}
 .popular-travels .owl-theme .custom-nav .owl-prev,
-.popular-travels .owl-theme .custom-nav .owl-next {
-    position: absolute;
-    height: 250px;
-    color: inherit;
-    background: none;
-    border: none;
-    z-index: 100;
-}
+.popular-travels .owl-theme .custom-nav .owl-next {position: absolute;height: 250px;color: inherit;background: none;border: none;z-index: 100;}
 .popular-travels .owl-theme .custom-nav .owl-prev i,
-.popular-travels .owl-theme .custom-nav .owl-next i {
-    font-size: 2rem;
-    color: #cecece;
-}
-.popular-travels .owl-theme .custom-nav .owl-prev {
-    left: 50px;
-}
-.popular-travels .owl-theme .custom-nav .owl-next {
-    right: 50px;
-}
-.owl-item.active {
-    transform: scale(.7);
-}
+.popular-travels .owl-theme .custom-nav .owl-next i {font-size: 2rem;color: #cecece;}
+.popular-travels .owl-theme .custom-nav .owl-prev {left: 50px;}
+.popular-travels .owl-theme .custom-nav .owl-next {right: 50px;}
+.owl-item.active {transform: scale(.7);}
+.owl-item.active.center  {transform: scale(1);}
 
-.owl-item.active.center  {
-    transform: scale(1);
-}
-
-/*  */
+.popular-travels .item .img_card {width: 30%;height: 40%;border-radius: 20px;top: 0;left: 0;}
+.popular-travels .item .content{position: absolute;z-index: 999;left: 35%;top: 4px;}
+.popular-travels .item a {bottom: 0;left: 0;width: 100%;border-radius: 10px;background-color: var(--sub-color);}
 
 /* .strength-points {} */
 .strength-points .title {
