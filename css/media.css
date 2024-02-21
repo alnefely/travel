@@ -1,0 +1,50 @@
+@media (max-width:2000px) and (min-width:992px) {
+    .trips_section .trip .content{margin-top: 0 !important;}
+    .trips_section .trip h5{font-size: 16px;}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .trips_section .trip .trip_title { font-size: 22px; }
+    .trips_section .trip h5 { margin: 7px 0 14px 0 !important; }
+    .trips_section .trip .date { font-size: 14px !important; }   
+    .trips_section .trip .date img { width: 30px; }
+    .contact_info .item .data{width: 50% !important;}
+}
+@media (max-width:992px) {
+    .contact_info .item .data{width: 50% !important;font-size: 15px;}
+    .footer .logo {bottom: 40px;right: 40px;}
+}
+
+@media (max-width: 768px){
+    .trips_section .trip .content{margin-top: 0 !important;}
+    .trips_section .trip .trip_title { font-size: 22px; }
+    .trips_section .trip h5 { margin-bottom: 28px !important; }
+    .trips_section .trip .date { font-size: 14px !important; }  
+    .trips_section .trip .date img { width: 30px; }
+    
+    .details_page .trip .content{margin-left: 0 !important;}
+    
+    .contact_header{padding: 0 !important;}
+    .contact_header .container{display: block !important;}
+    .contact_header .title h1{font-size:40px !important}
+    .contact_header .title p{font-size:17px !important} 
+    .contact_info{margin-top: -107px;}
+    .contact_info .items{padding: 44px 21px 0 21px !important;}
+    .contact_info .item{margin: 15px 0 !important;justify-content: start !important;}
+    .contact_info .item span{display: none;}
+    .contact_info .item .data{margin-left: 20px;}
+    
+    .subscription {padding: 0 40px;}
+
+    .about_info {margin-top: -204px;}
+    .about_info .items {width: 85%;}
+    .about_info .items h3{font-size: 22px;}
+    .about_info img {width: 60px;}
+    .about_info p {font-size: 18px;}
+}
+
+
+@media (max-width: 568px){
+    .trips_section .trip h5 { margin: 7px 0 14px 0 !important; }
+    .about_info p{font-size: 14px !important;}
+}
