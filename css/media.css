@@ -18,11 +18,22 @@
     .home_subscription .vector {margin-left: 0;}
     .home_subscription .content{padding: 0 !important;}
     .home_subscription .subscrip {margin: 0 !important; padding: 20px 30px !important;}
+
     .ask-us .happy_img{margin: 0 16px 0 -50px!important;}
     .social img:not(.sm_arrow){height: 50px;}
     .social span {top: 25%;}
     .contact_info .item .data{width: 50% !important;font-size: 15px;}
     .footer .logo {bottom: 40px;right: 40px;}
+}
+
+@media (max-width:992px) and (min-width: 600px) {
+    .popular-travels .item h5 {font-size: 17px;}
+    .popular-travels .item .content {top:-14px !important}
+    .popular-travels .item span{font-size: 16px !important;}
+    .popular-travels .item a {bottom: 0;left: 0;width: 100%;border-radius: 10px;background-color: var(--sub-color);}
+    .popular-travels .item .img_card{height: 39% !important;}
+    .popular-travels .item span {font-size: 12px !important;}
+    .popular-travels .item p {font-size: 14px !important;margin-bottom: 2px;}
 }
 
 @media (max-width: 768px){
@@ -62,4 +73,11 @@
 @media (max-width: 568px){
     .trips_section .trip h5 { margin: 7px 0 14px 0 !important; }
     .about_info p{font-size: 14px !important;}
+    
+    .popular-travels .item h5 {font-size: 24px;margin-bottom: 6px;}
+    .popular-travels .item .content {top:10px !important}
+    .popular-travels .item span{font-size: 16px !important;}
+    .popular-travels .item a {bottom: 0;left: 0;width: 100%;border-radius: 10px;background-color: var(--sub-color);}
+    .popular-travels .item .img_card{height: 44% !important;}
+    .popular-travels .item p {font-size: 19px !important;margin: 16px 0;}
 }
