@@ -41,6 +41,7 @@
     .home-header .left h1 {font-size: 50px;}
     .ask-us .images{display: flex;}
     .home_subscription {padding: 0 10px;}
+    .home_subscription .subscrip_form input::placeholder{font-size: 14px;}
 
     .trips_section .trip .content{margin-top: 0 !important;}
     .trips_section .trip .trip_title { font-size: 22px; }
